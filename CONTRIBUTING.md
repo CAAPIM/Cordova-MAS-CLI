@@ -1,8 +1,8 @@
-# Contribute to the Cordova Mobile SDK
+# Contribute to the Cordova MAS CLI
 Contributions are welcome and much appreciated. Just follow these easy steps to contribute.
 
 ## Our Development Process
-To continue improving the SDK, our development team will work on the same GitHub repos as you. The `develop branch` is used for development, and the `master branch` is used only for stable releases.
+To continue improving the Cordova MAS CLI, our development team will work on the same GitHub repos as you. The `develop branch` is used for development, and the `master branch` is used only for stable releases.
 **Note:** For production environments, please use releases only from the master branch.
 
 ### Pull Requests
@@ -45,5 +45,5 @@ By contributing to the Cordova Mobile SDK, you agree that your contributions wil
 
 [community]: https://communities.ca.com/community/ca-api-management-community/content?filterID=contentstatus%5Bpublished%5D~category%5Bca-mobile-api-gateway%5D
 [license-link]: /LICENSE
-[cla]: https://www.clahub.com/agreements/CAAPIM/Cordova-MAS-Foundation
+[cla]: https://www.clahub.com/agreements/CAAPIM/Cordova-MAS-CLI
 [casupport]: https://support.ca.com/irj/portal/implsvcnewcase
