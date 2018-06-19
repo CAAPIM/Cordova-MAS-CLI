@@ -1,0 +1,10 @@
+{
+    "mas": {
+        "curr_version": "1.7.00",
+        "jcenter_version": "1.6.10"
+    },
+    "cocoapods": {
+        "plaform_version": "9.0",
+        "pod_version": "1.6.10"
+    }
+}
