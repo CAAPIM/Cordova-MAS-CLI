@@ -139,4 +139,4 @@ Contributions are welcome and much appreciated. To learn more, see the [Contribu
 [Create your first MAS Cordova app]: http://mas.ca.com/docs/cordova/1.7.00/guides/#set-up-project-and-start-the-sdk
 [Reference docs]: ./Reference.md
 [StackOverflow]: http://stackoverflow.com/questions/tagged/massdk
-[Contributing]: /CONTRIBUTING.md
+[Contributing]: https://github.com/CAAPIM/Cordova-MAS-CLI/blob/master/CONTRIBUTING.md
