@@ -102,6 +102,21 @@ Usage: prepare [options] [template]
     -p, --path <path>          Path to the application files to be used to prepare the project with.
     -h, --help                 output usage information
 
+## mas purge Comnand
+
+This command clears the mas-cli logs.
+
+Usage: purge [options]
+
+ Synopsis 
+
+	 mas purge
+
+	 Clear logs 
+
+  Options:
+
+    -h, --help  output usage information
 
 # Docs
 - [Overview of MAS Cordova]

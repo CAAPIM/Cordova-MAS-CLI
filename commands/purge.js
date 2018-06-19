@@ -18,6 +18,6 @@ module.exports = function purgeCommand(program) {
 
     program
         .command('purge')
-        .description('\n\n Synopsis \n\n\t mas purge [options]\n\n\t Clear logs \n\n')
+        .description('\n\n Synopsis \n\n\t mas purge\n\n\t Clear logs \n\n')
         .action(purge)
 };
