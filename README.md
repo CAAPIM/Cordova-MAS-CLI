@@ -13,7 +13,7 @@ On Windows (Cygwin Or Git Bash):
     $npm install -g mas-cli
 ```    
     
-On OSX and Linux:
+On Mac OS X and Linux:
 ```bash    
     $sudo npm install -g mas-cli
 ```
@@ -83,7 +83,6 @@ Usage: prepare [options] [template]
 
   Options:
 
-    -r, --revision <revision>  MAS version to be used to prepare the project with.
     -p, --path <path>          Path to the application files to be used to prepare the project with.
     -h, --help                 output usage information
 
