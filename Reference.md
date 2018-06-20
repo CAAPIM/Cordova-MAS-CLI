@@ -16,16 +16,16 @@ These commands are available at all times.
 |   Commands            |   Description                     | 
 | :-------------------- |:----------------------------------| 
 | *forge*               | **Forge a MAS Cordova project**   |
-| *purge*               | **Clear mas-cli logs**   |
+| *purge*               | **Purge all mas-cli logs**   |
 
 
 ## Project Command List
 
 These commands are supported when the current working directory is a valid Cordova project.
 
-|   Commands            |   Description                                                                             | 
-| :-------------------- |:------------------------------------------------------------------------------------------| 
-| *prepare*             | **Prepare a MAS project by adding MAS plugins and frameworks based on starter templates.Also configure and setup                              the project with msso_config.json and various required settings.**|
+|   Commands            |   Description                                                                              | 
+| :-------------------- |:-------------------------------------------------------------------------------------------| 
+| *prepare*             | **Prepare a MAS project by adding MAS plugins and frameworks based on starter templates.Also                                configure and setup the project with msso_config.json and various required settings.**                               |
 
 
 ## Common options
@@ -49,7 +49,7 @@ Forge the directory structure for the MAS Cordova project with the specified nam
 ### Syntax
 
 ```
-mas forge name [options]
+mas forge [options] name
 ```
 
 |   Value               |   Description                                                                                                 | 
@@ -74,7 +74,18 @@ mas forge name [options]
 | `-p/--package <package>`      | **Reverse domain-style identifier that maps to id attribute of widget element in config.xml. This can be                                      changed but there may be code generated using this value, such as Java package names. It is recommended                                     that you select an appropriate value.**                                                               |
 
 
+### Directory Structure
+
+> MAS CLI directory structure is same as that of [Cordova](https://cordova.apache.org/docs/en/latest/reference/cordova-cli/index.html#directory-structure)
+
+
 ### Examples
+
+> Forge a MAS Cordova project in `myapp` directory using the specified ID and display name and pickup cordova platform based on the system os (Mac OS X --> ios / Windows --> android).
+
+```
+mas forge -p com.mycompany.myteam.myapp myapp
+```
 
 > Forge a MAS Cordova project in `myapp` directory using the specified ID and display name for ios and android platforms:
 
@@ -94,7 +105,7 @@ Prepare a MAS project by adding MAS plugins and frameworks based on starter temp
 ### Syntax
 
 ```
-mas prepare [template] [options]
+mas prepare [options] [template] 
 ```
 
 |   Value               |   Description                                                                                                 | 
@@ -107,7 +118,7 @@ mas prepare [template] [options]
 |   Default             |   Description                                                                                                 | 
 | :-------------------- |:------------------------------------------------------------------------------------------------------------- | 
 | *[template]*          | **Default:`core` <br> By default core/foundation plugins and frameworks are setup by the command.**           |
-| *index.html*          | **Default: `plugins/cordova-plugin-mas-template/sample/html/` <br> By default the sample html of plugin related                               to template te be setup is picked up by the command.**                                                      |
+| *index.html*          | **Default: `plugins/cordova-plugin-mas-template/sample/html/` <br> By default the sample html of plugin related                               the template to be setup is picked up by the command.**                                                      |
 
 ### Options
 
@@ -138,7 +149,7 @@ Clear mas-cli logs.
 ### Syntax
 
 ```
-mas purge
+mas purge [options]
 ```
 
 ### Examples
