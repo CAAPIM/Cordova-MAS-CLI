@@ -6,12 +6,14 @@
 This tool helps with management of multi-platform MAS Cordova applications as well as MAS Cordova plugin integration.
 
 # Installation
-In your command-line(Cygwin or Git Bash) on Windows:    
+Install the mas cli command line tool using the npm utility of Node.js. The mas cli tool will automatically be downloaded by the npm utility.
+
+On Windows (Cygwin Or Git Bash):    
 ```bash    
     $npm install -g mas-cli
 ```    
     
-In your terminal on Mac OS X/Linux:
+On OSX and Linux:
 ```bash    
     $sudo npm install -g mas-cli
 ```
@@ -63,6 +65,7 @@ Usage: forge [options] <name>
     -p, --package <package>  Specify the bundle ID/application ID for your app (Reverse-domain-style package name - used in <widget id>)
     -h, --help               output usage information
 
+Note: Navigate to the project directory to run mas commands mentioned ahead.
 
 ## mas configure command
 
