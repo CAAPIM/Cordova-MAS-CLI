@@ -16,6 +16,7 @@ These commands are available at all times.
 |   Commands            |   Description                     | 
 | :-------------------- |:----------------------------------| 
 | *forge*               | **Forge a MAS Cordova project**   |
+| *purge*               | **Clear mas-cli logs**   |
 
 
 ## Project Command List
@@ -25,15 +26,6 @@ These commands are supported when the current working directory is a valid Cordo
 |   Commands            |   Description                                                                             | 
 | :-------------------- |:------------------------------------------------------------------------------------------| 
 | *prepare*             | **Prepare a MAS project by adding MAS plugins and frameworks based on starter templates.Also configure and setup                              the project with msso_config.json and various required settings.**|
-
-
-### Optional Project Command List
-
-These commands are optional and are required only when you intend to setup up legacy MAS plugins earlier than 1.7.00.
-
-|   Commands            |   Description                                                                             | 
-| :-------------------- |:------------------------------------------------------------------------------------------| 
-| *configure*           | **Configure and setup a MAS project with msso_config.json and various required settings.**|
 
 
 ## Common options
@@ -135,39 +127,22 @@ mas prepare -p ~/sample/html storage
 ```
 
 
-## mas configure command
+## mas purge command
 
 
 ### Synopsis
 
-Configure and setup a MAS project with msso_config.json and various required settings.
+Clear mas-cli logs.
 
 
 ### Syntax
 
 ```
-mas configure [options]
+mas purge
 ```
-
-
-### Defaults
-
-|   Default                 |   Description                                                                                             | 
-| :-------------------------|:----------------------------------------------------------------------------------------------------------| 
-| *msso_config.json path*   | **Default:`<HOME_DIR>/masconfig/msso_config.json` <br> Unless an altername path is provided in the command                                    options by default msso_config.json file is searched in the path `<HOME_DIR>/masconfig/msso_config.json`                                    by the command.**                                                                                       |
-
-
-### Options
-
-|   Option                      |   Description                                                                                           | 
-| :-----------------------------|:--------------------------------------------------------------------------------------------------------| 
-| `-p/--path <path>`            | **Alternate path to fetch msso_config.json from.**                                                      |
-
 
 ### Examples
 
-> Configure a MAS Cordova project with altername msso_config.json path at `<HOME_DIR>/Desktop/config/msso_config.json`:
-
 ```
-mas configure -p ~/Desktop/config/msso_config.json
+mas purge
 ```

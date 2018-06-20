@@ -65,28 +65,10 @@ Usage: forge [options] <name>
     -p, --package <package>  Specify the bundle ID/application ID for your app (Reverse-domain-style package name - used in <widget id>)
     -h, --help               output usage information
 
-Note: Navigate to the project directory to run mas commands mentioned ahead.
-
-## mas configure command
-
-This command adds the msso_config from specified path to the project.
-  Usage: configure [options] 
-
- Synopsis 
-
-	 mas configure 
-
-	 Configure a MAS project 
-
- Options:
-
-    -p, --path <path>  Alternate path to fetch msso_config.json from.
-    -h, --help         output usage information
-
 
 ## mas prepare Comnand
 
-This command adds the MAS plugins based on the specified template and prepares the project with the file path specified.
+This command adds the MAS plugins based on the specified template and prepares the project with the file path specified. It should be executed from inside a valid Cordova project.
 
 Usage: prepare [options] [template]  
 
@@ -124,7 +106,7 @@ Usage: purge [options]
 # Docs
 - [Overview of MAS Cordova]
 - [Create your first MAS Cordova app]
-- [Full reference docs for MAS CLI][Reference docs] has details of commands to forge, configure and prepare MAS based projects. 
+- [Full reference docs for MAS CLI][Reference docs] has details of commands to forge, prepare and purge MAS based projects. 
 
 
 # How You Can Contribute
