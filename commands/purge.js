@@ -8,12 +8,12 @@
 module.exports = function purgeCommand(program) {
     'use strict';
 
-    const   __masForge  = require('../lib/mas-purge');
+    const   __masPurge  = require('../lib/mas-purge');
     
 
     let purge = () => {
 
-        __masForge.purge();
+        __masPurge.purge();
     };
 
     program
