@@ -83,7 +83,7 @@ Usage: prepare [options] [template]
 
   Options:
 
-    -p, --path <path>          Path to the application files to be used to prepare the project with.
+    -p, --path <path>          Path to the application files directory to be used to prepare the project with. The given path root should contain index.html at least.
     -h, --help                 output usage information
 
 ## mas purge Comnand
