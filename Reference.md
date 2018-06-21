@@ -1,4 +1,4 @@
-# MAS Command-line-interface (CLI) Reference
+# Cordova MAS Command-line-interface (CLI) Reference
 
 
 ## Syntax
@@ -76,7 +76,7 @@ mas forge [options] name
 
 ### Directory Structure
 
-> MAS CLI directory structure is same as that of [Cordova](https://cordova.apache.org/docs/en/latest/reference/cordova-cli/index.html#directory-structure)
+> MAS CLI directory structure is same as that of [Cordova Directory Structure](https://cordova.apache.org/docs/en/latest/reference/cordova-cli/index.html#directory-structure)
 
 
 ### Examples
