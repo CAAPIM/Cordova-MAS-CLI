@@ -1,4 +1,4 @@
-# MAS CLI
+# Cordova MAS CLI
 
 > The command line tool to build and manage [MAS](https://www.ca.com/us/developers/mas.html) Cordova-based applications.
 
@@ -118,9 +118,15 @@ Contributions are welcome and much appreciated. To learn more, see the [Contribu
 - *Find a bug?*, open an issue with the steps to reproduce it.
 - *Request a feature or have an idea?*, open an issue.
 
+## License
+Copyright (c) 2016 CA. All rights reserved.
+
+This software may be modified and distributed under the terms of the MIT license. See the [LICENSE][LICENSE FILE] file for details.
+
 
 [Overview of MAS Cordova]: http://mas.ca.com/docs/cordova/1.7.00/guides/#mas-plugin-overview
 [Create your first MAS Cordova app]: http://mas.ca.com/docs/cordova/1.7.00/guides/#set-up-project-and-start-the-sdk
 [Reference docs]: ./Reference.md
 [StackOverflow]: http://stackoverflow.com/questions/tagged/massdk
 [Contributing]: /CONTRIBUTING.md
+[LICENSE FILE]: /LICENSE
