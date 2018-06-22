@@ -1,7 +1,7 @@
 {
-  "name": "mas-cli",
-  "version": "0.0.1",
-  "description": "Continuous integration utility for MAS applications",
+  "name": "cordova-mas-cli",
+  "version": "1.0.0",
+  "description": "Continuous integration utility for CA APIM Cordova Mobile SDK applications",
   "main": "index.js",
   "bin": {
     "mas": "./bin/mas-cli"
@@ -14,7 +14,7 @@
     "url": "https://github.com/CAAPIM/Cordova-MAS-CLI"
   },
   "keywords": [
-    "mas-cli"
+    "cordova-mas-cli"
   ],
   "author": "CA Technologies",
   "license": "MIT",
