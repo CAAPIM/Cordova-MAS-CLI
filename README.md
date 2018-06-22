@@ -11,23 +11,23 @@ Install the command line tool using the npm utility of Node.js. The CLI tool wil
 
 On Windows (Cygwin Or Git Bash):    
 ```bash    
-    $npm install -g mas-cli
+    $npm install -g cordova-mas-cli
 ```    
     
 On Mac OS X and Linux:
 ```bash    
-    $sudo npm install -g mas-cli
+    $sudo npm install -g cordova-mas-cli
 ```
 
 # Forging and preparing a new [Mobile SDK for Cordova](http://mas.ca.com/docs/cordova/1.7.00/guides/) project
-This simple example demonstrates how mas-cli can be used to create a `myApp` project with the `storage` template and run it for `iOS` platform.
+This simple example demonstrates how cordova-mas-cli can be used to create a `myApp` project with the `storage` template and run it for `iOS` platform.
 
 ```bash
     mas forge -i myApp
     cd myApp
     mas prepare storage   
     
-    // ----> mas-cli ends its role here
+    // ----> cordova-mas-cli ends its role here
     // Using cordova to build and run
 
     cordova requirements ios    
@@ -46,7 +46,7 @@ This simple example demonstrates how mas-cli can be used to create a `myApp` pro
 - Node.js   : 8.11.1 or later
 
 
-# mas-cli Quick Reference
+# cordova-mas-cli Quick Reference
 
 ## mas forge command
 
@@ -92,7 +92,7 @@ Usage: prepare [options] [template]
 
 ## mas purge command
 
-This command clears the mas-cli logs.
+This command clears the cordova-mas-cli logs.
 
 Usage: purge [options]
 
@@ -109,7 +109,7 @@ Usage: purge [options]
 # Docs
 - [Overview of Mobile SDK for Cordova]
 - [Create your first Mobile SDK for Cordova app]
-- [Full reference docs for mas-cli][Reference docs] has details of commands to forge, prepare and purge [Mobile SDK for Cordova](http://mas.ca.com/docs/cordova/1.7.00/guides/) based projects. 
+- [Full reference docs for cordova-mas-cli][Reference docs] has details of commands to forge, prepare and purge [Mobile SDK for Cordova](http://mas.ca.com/docs/cordova/1.7.00/guides/) based projects. 
 
 
 # How You Can Contribute

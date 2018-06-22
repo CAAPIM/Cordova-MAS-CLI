@@ -16,7 +16,7 @@ These commands are available at all times.
 |   Commands            |   Description                     | 
 | :-------------------- |:----------------------------------| 
 | *forge*               | **Forge a MAS Cordova project**   |
-| *purge*               | **Purge all mas-cli logs**   |
+| *purge*               | **Purge all cordova-mas-cli logs**   |
 
 
 ## Project Command List
@@ -30,12 +30,12 @@ These commands are supported when the current working directory is a valid Cordo
 
 ## Common options
 
-These options apply to all mas-cli commands.
+These options apply to all cordova-mas-cli commands.
 
 |   Option              |   Description                 | 
 | :-------------------- |:----------------------------- | 
 | *-h or --help*        | **Get help for a command**    |
-| *-v or --Version*     | **Get mas-cli version.**      |
+| *-v or --Version*     | **Get cordova-mas-cli version.**      |
 
 
 ## mas forge command
@@ -143,7 +143,7 @@ mas prepare -p ~/sample/html storage
 
 ### Synopsis
 
-Clear mas-cli logs.
+Clear cordova-mas-cli logs.
 
 
 ### Syntax

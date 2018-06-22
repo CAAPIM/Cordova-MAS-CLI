@@ -6,7 +6,7 @@
 
 ### New features
 
-- Initial Release for mas-cli.
+- Initial Release for cordova-mas-cli.
 
 ### Deprecated methods
 
