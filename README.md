@@ -38,10 +38,10 @@ This simple example demonstrates how mas-cli can be used to create a `myApp` pro
 # Supported Versions
 
 - MAS       : 1.7.00
-- Cordova   : 8.0.0 or above
-- Cocoapods : 1.4.0 or above
+- Cordova   : 8.0.0 or later
+- Cocoapods : 1.4.0 or later
 - XCode	    : 9.3.1 or later
-- Android Studio: 3.1.1
+- Android Studio: 3.1.1 or later
 - Node.js   : 8.11.1 or later
 
 
