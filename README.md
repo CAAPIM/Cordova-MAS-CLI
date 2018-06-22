@@ -1,23 +1,25 @@
-# MAS CLI
+# CLI Utility for Mobile SDK for Cordova
 
-> The command line tool to build and manage [MAS](https://www.ca.com/us/developers/mas.html) Cordova-based applications.
+> The command line tool to build and manage [Mobile SDK](https://www.ca.com/us/developers/mas.html) Cordova-based applications.
 
-[MAS Cordova](http://mas.ca.com/docs/cordova/1.7.00/guides/) allows for building native MAS enabled mobile applications using HTML, CSS and JavaScript. 
-This tool helps with management of multi-platform MAS Cordova applications as well as MAS Cordova plugin integration.
+[Mobile SDK for Cordova](http://mas.ca.com/docs/cordova/1.7.00/guides/) allows for building native MAS enabled mobile applications using HTML, CSS and JavaScript. 
+This tool helps with management of multi-platform Mobile SDK for Cordova applications as well as Mobile SDK for Cordova plugin integration.
 
 # Installation
-In your command-line(Cygwin or Git Bash) on Windows:    
+Install the command line tool using the npm utility of Node.js. The CLI tool will automatically be downloaded by the npm utility.
+
+On Windows (Cygwin Or Git Bash):    
 ```bash    
     $npm install -g mas-cli
 ```    
     
-In your terminal on Mac OS X/Linux:
+On Mac OS X and Linux:
 ```bash    
     $sudo npm install -g mas-cli
 ```
 
-# Forging and preparing a new MAS Cordova project
-This simple example demonstrates how MAS CLI can be used to create a `myApp` project with the `storage` template and run it for `iOS` platform.
+# Forging and preparing a new Mobile SDK for Cordova project
+This simple example demonstrates how mas-cli can be used to create a `myApp` project with the `storage` template and run it for `iOS` platform.
 
 ```bash
     mas forge -i myApp
@@ -36,8 +38,11 @@ This simple example demonstrates how MAS CLI can be used to create a `myApp` pro
 # Supported Versions
 
 - MAS       : 1.7.00
-- Cordova   : 8.0.0 or above
-- Cocoapods : 1.4.0 or above
+- Cordova   : 8.0.0 or later
+- Cocoapods : 1.4.0 or later
+- XCode	    : 9.3.1 or later
+- Android Studio: 3.1.1 or later
+- Node.js   : 8.11.1 or later
 
 
 # mas-cli Quick Reference
@@ -64,26 +69,9 @@ Usage: forge [options] <name>
     -h, --help               output usage information
 
 
-## mas configure command
+## mas prepare Command
 
-This command adds the msso_config from specified path to the project.
-  Usage: configure [options] 
-
- Synopsis 
-
-	 mas configure 
-
-	 Configure a MAS project 
-
- Options:
-
-    -p, --path <path>  Alternate path to fetch msso_config.json from.
-    -h, --help         output usage information
-
-
-## mas prepare Comnand
-
-This command adds the MAS plugins based on the specified template and prepares the project with the file path specified.
+This command adds the MAS plugins based on the specified template and prepares the project with the file path specified. It should be executed from inside a valid Cordova project.
 
 Usage: prepare [options] [template]  
 
@@ -98,11 +86,10 @@ Usage: prepare [options] [template]
 
   Options:
 
-    -r, --revision <revision>  MAS version to be used to prepare the project with.
-    -p, --path <path>          Path to the application files to be used to prepare the project with.
+    -p, --path <path>          Path to the application files directory to be used to prepare the project with. The given path root should contain index.html at least.
     -h, --help                 output usage information
 
-## mas purge Comnand
+## mas purge Command
 
 This command clears the mas-cli logs.
 
@@ -121,18 +108,23 @@ Usage: purge [options]
 # Docs
 - [Overview of MAS Cordova]
 - [Create your first MAS Cordova app]
-- [Full reference docs for MAS CLI][Reference docs] has details of commands to forge, configure and prepare MAS based projects. 
+- [Full reference docs for mas-cli][Reference docs] has details of commands to forge, prepare and purge MAS based projects. 
 
 
 # How You Can Contribute
-MAS CLI is an open source project and contributors are needed to keep this project moving forward.
+This utility is an open source project and contributors are needed to keep this project moving forward.
 Contributions are welcome and much appreciated. To learn more, see the [Contribution Guidelines][Contributing].
 
 
-# TO-DO + Issues
+# Communication
 - *Have general questions or need help?*, use [Stack Overflow][StackOverflow]. (Tag 'massdk')
 - *Find a bug?*, open an issue with the steps to reproduce it.
 - *Request a feature or have an idea?*, open an issue.
+
+## License
+Copyright (c) 2016 CA. All rights reserved.
+
+This software may be modified and distributed under the terms of the MIT license. See the [LICENSE][LICENSE FILE] file for details.
 
 
 [Overview of MAS Cordova]: http://mas.ca.com/docs/cordova/1.7.00/guides/#mas-plugin-overview
@@ -140,3 +132,4 @@ Contributions are welcome and much appreciated. To learn more, see the [Contribu
 [Reference docs]: ./Reference.md
 [StackOverflow]: http://stackoverflow.com/questions/tagged/massdk
 [Contributing]: /CONTRIBUTING.md
+[LICENSE FILE]: /LICENSE
