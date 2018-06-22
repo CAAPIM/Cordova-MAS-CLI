@@ -1,4 +1,4 @@
-# Cordova MAS Command-line-interface (CLI) Reference
+# [Mobile SDK for Cordova](http://mas.ca.com/docs/cordova/1.7.00/guides/) Command-line-interface (CLI) Reference
 
 
 ## Syntax
@@ -43,7 +43,7 @@ These options apply to all mas-cli commands.
 
 ### Synopsis
 
-Forge the directory structure for the MAS Cordova project with the specified name in the current directory and add specified platforms.
+Forge the directory structure for the [Mobile SDK for Cordova](http://mas.ca.com/docs/cordova/1.7.00/guides/) project with the specified name in the current directory and add specified platforms.
 
 
 ### Syntax
@@ -76,18 +76,18 @@ mas forge [options] name
 
 ### Directory Structure
 
-> MAS CLI directory structure is same as that of [Cordova Directory Structure](https://cordova.apache.org/docs/en/latest/reference/cordova-cli/index.html#directory-structure)
+> [Mobile SDK for Cordova](http://mas.ca.com/docs/cordova/1.7.00/guides/) CLI directory structure is same as that of [Cordova Directory Structure](https://cordova.apache.org/docs/en/latest/reference/cordova-cli/index.html#directory-structure)
 
 
 ### Examples
 
-> Forge a MAS Cordova project in `myapp` directory using the specified ID and display name and pickup cordova platform based on the system os (Mac OS X --> ios / Windows --> android).
+> Forge a [Mobile SDK for Cordova](http://mas.ca.com/docs/cordova/1.7.00/guides/) project in `myapp` directory using the specified ID and display name and pickup cordova platform based on the system os (Mac OS X --> ios / Windows --> android).
 
 ```
 mas forge -p com.mycompany.myteam.myapp myapp
 ```
 
-> Forge a MAS Cordova project in `myapp` directory using the specified ID and display name for ios and android platforms:
+> Forge a [Mobile SDK for Cordova](http://mas.ca.com/docs/cordova/1.7.00/guides/) project in `myapp` directory using the specified ID and display name for ios and android platforms:
 
 ```
 mas forge -ia -p com.mycompany.myteam.myapp myapp
@@ -99,7 +99,7 @@ mas forge -ia -p com.mycompany.myteam.myapp myapp
 
 ### Synopsis
 
-Prepare a MAS project by adding MAS plugins and frameworks based on starter templates.Also configure and setup                              the project with msso_config.json and various required settings.
+Prepare a [Mobile SDK for Cordova](http://mas.ca.com/docs/cordova/1.7.00/guides/) project by adding [Mobile SDK for Cordova](http://mas.ca.com/docs/cordova/1.7.00/guides/) plugins and frameworks based on starter templates.Also configure and setup                              the project with msso_config.json and various required settings.
 
 
 ### Syntax
@@ -130,7 +130,7 @@ mas prepare [options] [template]
 
 ### Examples
 
-> Prepare a MAS Cordova project with `storage` template using the latest MAS revision and custom application html, js files at path 
+> Prepare a [Mobile SDK for Cordova](http://mas.ca.com/docs/cordova/1.7.00/guides/) project with `storage` template using the latest MAS revision and custom application html, js files at path 
 > `<HOME_DIRECTORY>/sample/html/`:
 
 ```
