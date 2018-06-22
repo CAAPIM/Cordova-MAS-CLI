@@ -1,6 +1,6 @@
 {
   "name": "mas-cli",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Continuous integration utility for MAS applications",
   "main": "index.js",
   "bin": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github-isl-01.ca.com/APIM-Evolution/mas-cli"
+    "url": "https://github.com/CAAPIM/Cordova-MAS-CLI"
   },
   "keywords": [
     "mas-cli"
