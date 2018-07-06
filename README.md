@@ -87,7 +87,7 @@ Usage: prepare [options] [template]
 
   Options:
 
-    -p, --path <path>          Path to the application files directory to be used to prepare the project with. The given path root should contain index.html at least.
+    -p, --path <path>          Path to the application files directory to be used to prepare the project with. The given path root should contain index.html at least. When on Cygwin, use Windows style. Example - use 'C:' instead of '/cygdrive/c'
     -h, --help                 output usage information
 
 ## mas purge command
