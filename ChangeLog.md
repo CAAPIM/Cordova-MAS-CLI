@@ -1,4 +1,19 @@
-# Version 1.0.00
+# Version 1.0.1
+
+### Bug fixes
+
+- None.
+
+### New features
+
+- None.
+
+### Deprecated methods
+
+- None.
+
+
+# Version 1.0.0
 
 ### Bug fixes
 
@@ -11,6 +26,7 @@
 ### Deprecated methods
 
 - NA
+
 
  [mag]: https://docops.ca.com/mag
  [mas.ca.com]: http://mas.ca.com/

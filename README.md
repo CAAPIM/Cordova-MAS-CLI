@@ -1,4 +1,4 @@
-# CLI Utility for [Mobile SDK for Cordova](http://mas.ca.com/docs/cordova/1.7.00/guides/)
+# CLI Utility for Mobile SDK for Cordova
 
 > The command line tool to build and manage [Mobile SDK for Cordova](http://mas.ca.com/docs/cordova/1.7.00/guides/) based applications.
 
