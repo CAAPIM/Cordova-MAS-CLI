@@ -6,6 +6,7 @@
 
 This tool helps with [Mobile SDK for Cordova][MobileSDKForCordova] plugin integration as well as management of multi-platform [Mobile SDK for Cordova][MobileSDKForCordova] based applications.
 
+
 # Installation
 Install the command line tool using the npm utility of Node.js. The CLI tool will automatically be downloaded by the npm utility.
 
@@ -18,6 +19,22 @@ On Mac OS X and Linux:
 ```bash    
     $sudo npm install -g cordova-mas-cli
 ```
+
+
+# Review Prerequisites
+
+Before you use the CLI Utility for [Mobile SDK for Cordova][MobileSDKForCordova], you must do the following [Prerequisites][Prerequisites]
+
+
+# Supported Versions
+
+- [Mobile SDK for Cordova][MobileSDKForCordova]       : 1.7.10
+- Cordova   : 8.0.0 or later
+- Cocoapods : 1.4.0 or later
+- XCode	    : 9.3.1 or later
+- Android Studio: 3.1.1 or later
+- Node.js   : 8.11.1 or later
+
 
 # Forging and preparing a new [Mobile SDK for Cordova][MobileSDKForCordova] project
 This simple example demonstrates how cordova-mas-cli can be used to create a `myApp` project with the `storage` template and run it for `iOS` platform.
@@ -34,16 +51,6 @@ This simple example demonstrates how cordova-mas-cli can be used to create a `my
     cordova build ios --verbose
     cordova run ios
 ```
-
-
-# Supported Versions
-
-- [Mobile SDK for Cordova][MobileSDKForCordova]       : 1.7.12
-- Cordova   : 8.0.0 or later
-- Cocoapods : 1.4.0 or later
-- XCode	    : 9.3.1 or later
-- Android Studio: 3.1.1 or later
-- Node.js   : 8.11.1 or later
 
 
 # cordova-mas-cli Quick Reference
@@ -131,6 +138,7 @@ This software may be modified and distributed under the terms of the MIT license
 [Overview of Mobile SDK for Cordova]: http://mas.ca.com/docs/cordova/latest/guides/#mas-plugin-overview
 [MobileSDKForCordova]: http://mas.ca.com/docs/cordova/latest/guides/
 [Create your first Mobile SDK for Cordova app]: http://mas.ca.com/docs/cordova/latest/guides/#set-up-project-and-start-the-sdk
+[Prerequisites]: http://mas.ca.com/docs/cordova/1.7.00/guides/#step-1-review-prerequisites-and-supported-versions
 [Reference docs]: ./Reference.md
 [StackOverflow]: http://stackoverflow.com/questions/tagged/massdk
 [Contributing]: /CONTRIBUTING.md

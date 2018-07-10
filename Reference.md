@@ -123,8 +123,7 @@ mas prepare [options] [template]
 ### Options
 
 |   Option                      |   Description                                                                                           | 
-| :-----------------------------|:--------------------------------------------------------------------------------------------------------| 
-| `-r/--revision <revision>`    | **MAS revision to be used to prepare the project with.**                                                |
+| :-----------------------------|:--------------------------------------------------------------------------------------------------------|
 | `-p/--path <path>`            | **Path to the application files to be used to prepare the project with.  If this command is run on Cygwin, use Windows style. For example, use 'C:' instead of '/cygdrive/c'.**                               |
 
 
