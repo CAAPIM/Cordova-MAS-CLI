@@ -99,7 +99,7 @@ mas forge -ia -p com.mycompany.myteam.myapp myapp
 
 ### Synopsis
 
-Prepare a [Mobile SDK for Cordova](http://mas.ca.com/docs/cordova/latest/guides/) project by adding [Mobile SDK for Cordova](http://mas.ca.com/docs/cordova/1.7.00/guides/) plugins and frameworks based on starter templates.Also configure and setup                              the project with msso_config.json and various required settings.
+Prepare a [Mobile SDK for Cordova](http://mas.ca.com/docs/cordova/latest/guides/) project by adding [Mobile SDK for Cordova](http://mas.ca.com/docs/cordova/latest/guides/) plugins and frameworks based on starter templates.Also configure and setup                              the project with msso_config.json and various required settings.
 
 
 ### Syntax
