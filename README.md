@@ -138,7 +138,7 @@ This software may be modified and distributed under the terms of the MIT license
 [Overview of Mobile SDK for Cordova]: http://mas.ca.com/docs/cordova/latest/guides/#mas-plugin-overview
 [MobileSDKForCordova]: http://mas.ca.com/docs/cordova/latest/guides/
 [Create your first Mobile SDK for Cordova app]: http://mas.ca.com/docs/cordova/latest/guides/#set-up-project-and-start-the-sdk
-[Prerequisites]: http://mas.ca.com/docs/cordova/1.7.00/guides/#step-1-review-prerequisites-and-supported-versions
+[Prerequisites]: http://mas.ca.com/docs/cordova/latest/guides/#step-1-review-prerequisites-and-supported-versions
 [Reference docs]: ./Reference.md
 [StackOverflow]: http://stackoverflow.com/questions/tagged/massdk
 [Contributing]: /CONTRIBUTING.md
