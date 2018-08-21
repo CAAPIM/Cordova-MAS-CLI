@@ -28,7 +28,7 @@ Before you use the CLI Utility for [Mobile SDK for Cordova][MobileSDKForCordova]
 
 # Supported Versions
 
-- [Mobile SDK for Cordova][MobileSDKForCordova]       : 1.7.10
+- [Mobile SDK for Cordova][MobileSDKForCordova]       : 1.8.00
 - Cordova   : 8.0.0 or later
 - Cocoapods : 1.4.0 or later
 - XCode	    : 9.3.1 or later
