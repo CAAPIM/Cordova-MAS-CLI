@@ -1,3 +1,18 @@
+# Version 1.2.0
+
+### Bug fixes
+
+- None.
+
+### New features
+
+- Support for running apps on Android P. Includes Secure AMS support.
+
+### Deprecated methods
+
+- None.
+
+
 # Version 1.1.0
 
 ### Bug fixes
