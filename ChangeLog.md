@@ -1,3 +1,18 @@
+# Version 1.2.0
+
+### Bug fixes
+
+- None.
+
+### New features
+
+- None.
+
+### Deprecated methods
+
+- None.
+
+
 # Version 1.1.0
 
 ### Bug fixes
