@@ -6,7 +6,7 @@
 
 ### New features
 
-- Support for running apps on Android P. Includes Secure AMS support"
+- Support for running apps on Android P. Includes Secure AMS support.
 
 ### Deprecated methods
 
